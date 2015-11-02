@@ -1,0 +1,29 @@
+{
+  "name": "telegram-user-id-bot",
+  "version": "1.0.0",
+  "description": "Get your telegram user id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuss/telegram-user-id-bot.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "Matheus Fernandes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheuss/telegram-user-id-bot/issues"
+  },
+  "homepage": "https://github.com/matheuss/telegram-user-id-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "request": "^2.65.0"
+  }
+}
